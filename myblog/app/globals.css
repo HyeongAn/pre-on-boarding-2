@@ -1,0 +1,52 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #303030;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+p {
+  margin: 0;
+}
+
+.headBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.headLinkBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+  position: absolute;
+  right: 10px;
+  color: white;
+}
+
+.footerBox {
+  display: flex;
+  width: 100%;
+  height: 120px;
+  align-items: center;
+  position: relative;
+  margin: 10px 0 10px 10px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.footerLinks {
+  display: flex;
+  width: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
